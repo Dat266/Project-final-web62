@@ -1,0 +1,47 @@
+.wrapper {
+    background-color: #001529;
+    color: #fff;
+    display: flex;
+    padding: 1rem 3rem;
+    gap: 3rem;
+}
+
+.header--left {
+    h1 {
+        text-align: center;
+        letter-spacing: 0.2em;
+        font-size: 3rem;
+        text-shadow: 2px 2px 5px rgb(243, 243, 189);
+        padding: 0.5rem 0;
+    }
+}
+
+.header--center {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color: #fff;
+    flex: 2;
+    padding: 1rem 0;
+}
+
+.link {
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+}
+
+.account {
+    align-items: center;
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    gap: 0.8rem;
+}
+
+.icon {
+    font-size: 1.5rem;
+}
+
+.menu {
+    font-size: 1rem;
+}

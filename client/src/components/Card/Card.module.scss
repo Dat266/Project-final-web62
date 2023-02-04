@@ -1,0 +1,32 @@
+.wrapper {
+    flex: 1;
+    background-color: rgb(236, 235, 235);
+    padding: 2rem 0;
+    min-height: 80vh;
+    height: max-content;
+}
+
+.wrapper p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: red;
+    margin-bottom: 1rem;
+}
+
+.wrapper span {
+    font-size: 1rem;
+}
+
+.card {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.pagination {
+    width: 100%;
+    margin-top: 1rem;
+    text-align: center;
+}
